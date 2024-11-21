@@ -34,4 +34,7 @@
   .container {
     gap:2rem
   }
+  .customer-care {
+    padding: 0.5rem;
+  }
 }
