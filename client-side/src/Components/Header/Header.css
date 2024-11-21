@@ -37,4 +37,7 @@
   .customer-care {
     padding: 0.5rem;
   }
+  .logo-section img {
+    width: 20rem;
+  }
 }
