@@ -5,7 +5,8 @@
   margin-bottom: 1rem;
   align-items: center;
   padding-inline: 2rem;
-  justify-content: space-between;
+  gap: 50rem;
+  /* justify-content: space-between; */
   box-shadow: 5px 5px 5px grey;
 }
 
@@ -14,17 +15,23 @@
   width: 18rem;
 }
 
-.customer-care{
-    padding: 1rem;
-    border: 1px solid grey;
+.icon {
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
 
-@media screen and (min-width:800px) {
-  .logo-section img {
-    height: 5rem;
-    width: 16rem;
-  }
-  .container{
-    gap: 3rem;
+.customer-care {
+  padding: 1rem;
+  border: 1px solid grey;
+}
+.customer {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    gap:2rem
   }
 }

@@ -10,9 +10,9 @@ const Header = () => {
                     <img src={logo} alt="logo" />
                 </div>
                 <div className="customer-care">
-                    <div className="icon flex items-center gap-3">
+                    <div className="icon ">
                         <RiCustomerService2Line size={40} />
-                        <h1 className='font-bold text-xl'>Customer Care</h1>
+                        <h1 className='customer'>Customer Care</h1>
                     </div>
                     <p>
                     <a href="tel:+91 95400 08223">+91 95400 08223</a>
