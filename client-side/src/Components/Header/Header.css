@@ -1,0 +1,20 @@
+.container {
+  height: 8rem;
+  padding: 10px;
+  display: flex;
+  margin-bottom: 1rem;
+  align-items: center;
+  padding-inline: 2rem;
+  justify-content: space-between;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.logo-section img {
+  height: 7rem;
+  width: 18rem;
+}
+
+.customer-care{
+    padding: 1rem;
+    border: 1px solid grey;
+}

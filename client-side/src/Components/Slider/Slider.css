@@ -1,0 +1,56 @@
+.container-section{
+  height: 30rem;
+  padding-inline: 0.5rem;
+}
+
+.owl-theme .owl-controls {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.owl-dots {
+  left: 2rem;
+  margin-top: 1rem;
+  position: static;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background: #d4d8dc;
+  transition: background-color 0.3s ease;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+  background: #007bff!important;
+}
+
+.owl-nav {
+  right: 2rem;
+  margin-top: 1rem;
+  position: absolute;
+}
+
+.custom {
+  width: 3rem;
+  padding: 0.5rem;
+  color: #1a2c4e;
+  font-size: 0.7rem;
+  border: 1px solid rgb(105, 105, 128);
+}
+
+.owl-carousel .owl-item {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.owl-carousel .owl-item img{
+  height: 20rem;
+}
