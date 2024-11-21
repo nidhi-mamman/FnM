@@ -20,7 +20,11 @@
 }
 
 @media screen and (min-width:800px) {
+  .logo-section img {
+    height: 5rem;
+    width: 16rem;
+  }
   .container{
-    gap: 2rem;
+    gap: 3rem;
   }
 }
